@@ -1,0 +1,11 @@
+# Keep credentials, raw password data, and local tool state out of Git.
+*.pot
+*.potfile
+*.john
+hashes*
+wordlist*
+credentials*
+.env
+.env.*
+Thumbs.db
+.DS_Store
