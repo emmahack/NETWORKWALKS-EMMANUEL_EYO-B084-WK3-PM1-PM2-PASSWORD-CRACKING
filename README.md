@@ -69,7 +69,3 @@ Install tools only from their official sources and follow the license and course
 ## Reflection
 
 The exercises demonstrated that simple dictionary guesses can recover weak passwords protecting documents. A successful test is evidence about the tested sample and wordlist, not a measure of security for other accounts. For real data, use strong unique passwords, store them in a password manager, and protect important accounts with multifactor authentication. Organizations should use modern salted password-hashing schemes for account passwords and review any exposure through approved incident-response processes.
-
-## License
-
-Unless you add a license file, all rights are reserved by the repository owner. Only publish screenshots and materials you have the right to share.
