@@ -35,16 +35,7 @@ password-security-lab-guide/
 
 ## Part 1: John the Ripper (JtR)
 
-John the Ripper is a password auditing tool. In a training lab, it can test whether deliberately weak sample passwords are guessable from their hashes. Follow your instructor's exact setup and commands; the steps below are a high-level record-keeping guide, not a target-specific cracking recipe.
-
-### Record your workflow
-
-1. **Define scope:** write down the lab machine, authorized account or provided sample, and the task objective.
-2. **Prepare a harmless sample:** use a course-provided test hash or create a disposable local test account. Do not use a production credential.
-3. **Identify the hash format:** use the lab instructions and JtR's supported-format documentation. Record the format and why it applies.
-4. **Run only the assigned audit:** use the provided wordlist or rules within the lab. Record the command at a level approved by your course; redact sensitive paths or values.
-5. **Review the result:** note whether a sample was recovered, the elapsed time if shown, and the limits of that result. A missed password does not prove it is strong.
-6. **Clean up:** remove temporary lab files and reset disposable credentials when the exercise is complete.
+John the Ripper is a password auditing tool. In a training lab, it can test whether deliberately weak sample passwords are guessable from their hashes.
 
 ### Findings to explain
 
